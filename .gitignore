@@ -4,4 +4,4 @@
 .Ruserdata
 data/q
 data/*.csv
-output/*.csv
+output/embargo

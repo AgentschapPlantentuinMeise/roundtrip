@@ -5,6 +5,9 @@ library(magrittr)
 #only needed if data files not already present in data folder
 datasetguid = commandArgs(trailingOnly = T)
 
+#uncomment next line to set a fixed dataset guid
+#datasetguid = "b740eaa0-0679-41dc-acb7-990d562dfa37"
+
 #download data files for provided dataset from bionomia
 if (length(datasetguid) > 0) {
   if (!file.exists("data/attributions.csv")) {
